@@ -1,0 +1,127 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    text-align: center;
+    color: #fff5ee;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    align-items: center;
+}
+
+a {
+    color: seashell;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header img {
+   padding-left: 10px;
+   height: 50px;
+}
+
+nav {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav span {
+    text-align: right;
+    padding: 20px 10px;
+    
+}
+
+main {
+padding-top: 69px;
+margin: auto;
+width: 1200px;
+
+
+
+}
+
+#mission {
+   background-image: url("./resources/img-mission-background.webp");
+   height: 700px;
+   padding-top: 70px;
+}
+
+#mission .content {
+background-color: black;
+margin: auto;
+width: 100%;
+}
+
+#store {
+    height: 700px;
+    padding-top: 70px;
+    width: 1000px;
+    margin: auto;
+}
+#item {
+    padding-top: 5px;
+}
+#item img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    display: block;
+}
+
+#item span {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#locations {
+    background-image: url("./resources/img-locations-background.webp");
+    height: 500px;
+    padding-top: 70px;
+}
+
+.flex-container.locations {
+padding-top: 5px;
+
+
+}
+
+.location {
+background-color: black;
+opacity: 1.0;
+padding: 10px;
+margin: 5px 20px;
+flex-basis: 280px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.contact {
+
+height: 200px;
+}
+footer {
+padding-left: 20px;
+text-align: left;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
